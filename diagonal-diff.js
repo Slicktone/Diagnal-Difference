@@ -35,3 +35,6 @@ function diagonalDifference(arr) {
      // find the absolute value of whatever the sum of both diagonals will be using a Math function
     return Math.abs(rightSum - leftSum)
 }
+
+
+// note this can be done using the arr.reduce method as well
