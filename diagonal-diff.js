@@ -17,4 +17,15 @@ function diagonalDifference(arr) {
         The absolute value of both is |4 - 19| = 15
         Math stuff: |x| is the absolute value of x
     */
+
+    // declare both diagonals
+     let leftSum = 0
+     let rightSum = 0
+     
+     // conditional loop through the diagonals
+     for (var i = 0; i < arr.length; i++) {
+         var j = i
+         var j2 = arr.length - (i + 1)
+
+     }
 }
