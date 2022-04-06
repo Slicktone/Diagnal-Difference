@@ -24,8 +24,13 @@ function diagonalDifference(arr) {
      
      // conditional loop through the diagonals
      for (var i = 0; i < arr.length; i++) {
+         // got some help here
+         // need variables for reassignment in the arrays since value is changing
          var j = i
          var j2 = arr.length - (i + 1)
-
+         // add the left and right diagonals
+         leftSum += arr[i][j]
+         rightSum += arr[i][j2]
      }
+     
 }
